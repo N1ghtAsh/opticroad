@@ -7,7 +7,7 @@
     <meta name="author" content="Mehedi Hassan">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Mehedi Hassan</title>
+    <title>OpticRoad</title>
 <!-- Bootstrap/CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
@@ -28,10 +28,7 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#information">Introduction</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#web">Programming</a>
@@ -40,7 +37,7 @@
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="" target="">Log in</a>
+                            <a class="nav-link" href="login.html" target="">Log in</a>
                         </li>
                     </ul>
 
@@ -61,7 +58,7 @@
                 <img src="https://drive.google.com/thumbnail?id=14lfVWPOrZvxb8xvTf-gChgzvop0NauJ5" class="d-block w-100" alt="photo3">
             </div>
             <div class="carousel-item" data-interval="2000">
-                <img src="https://drive.google.com/thumbnail?id=14nXhuLpsPN2907nuqqiCBKrpNXHuYnkp" class="d-block w-100" alt="photo">
+                <img src="https://drive.google.com/thumbnail?id=14nXhuLpsPN2907nuqqiCBKrpNXHuYnkp" class="d-block w-100" alt="photo4">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -73,7 +70,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <main class="bg-info">
+    <main class="bg-light">
 <!--HOME SECTION-->
         <div class="container" style="padding-top:20px;">
             <div id="home">
@@ -83,10 +80,13 @@
             </div><br><br>
   <!--INFORMATION SECTION-->
             <div id="information">
-                <h2 align="center" style="color:burlywood;">Introduction</h2><br>
-              <div style="color:white;">
-                <p> I'm Mehedi Hassan.</p>
-                <p> A student.</p>
+                <h2 align="center" style="color:crimson;">Introduction</h2>
+                <hr>
+                <hr>
+
+              <div style="color:black;">
+                <div class="text-primary"><h4> I'm Mehedi Hassan.</h4>
+                <h4> A student.</h4></div><br><br>
                 <article>"<strong>Lorem ipsum</strong> dolor sit amet, <u>consectetur</u> adipiscing <small>elit</small>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. It enim ad minim veniam, quis <del>nostrud</del> exercitation <i>ullamco laboris</i> nisi ut aliquip ex <sub>5</sub> ea commodo consequat. Duis aute <sup>3</sup> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<aside class="m0">
                 Excepteur sint occaecat cupidatat non proident.</aside> Sunt in culpa qui officia deserunt mollit anim id est laborum."
               </article><br>
@@ -98,11 +98,10 @@
               </div>
             </div>
         </div>
-        <hr>
-        <hr>
-        <a href="https://www.google.com" target="_blank" class="goed"><img src="images.jpeg" alt="Google" class="p01"></a><br><br>
+
+        <!--<a href="https://www.google.com" target="_blank" class="goed"><img src="images.jpeg" alt="Google" class="p01"></a><br><br>-->
 <!--Programming Section-->
-        <div id="web" class="bg-info container" style="padding-bottom:10px;text-align:center;">
+        <div id="web" class="bg-secondary container" style="padding-bottom:10px;text-align:center;border-radius: 2%;">
             <h2 align="center">Programming<small><span class="badge badge-secondary">new</span></small> </h2>
 
             <div class="jumbotron inline">
@@ -116,7 +115,7 @@
                 <a href="https://en.m.wikipedia.org/wiki/CSS" class="btn btn-primary">Learn more</a></div>
         </div>
 <!--my skill Section-->
-        <h2 align="center">My Skill</h2>
+      <div class="bg-white">  <h2 align="center">My Skill</h2>
         <div align="center">
             <label align="left">HTML</label>
             <div class="progress prowid" style="">
@@ -127,7 +126,7 @@
         <div align="center">
             <label align="left">CSS</label>
             <div class="progress prowid">
-                <div class="progress-bar bg-danger" style="width:60%" role="progressbar">60%</div>
+                <div class="progress-bar bg-warning" style="width:60%" role="progressbar">60%</div>
             </div>
         </div><br>
 
@@ -143,11 +142,12 @@
             <div class="progress prowid">
                 <div class="progress-bar bg-primary" style="width:25%">25%</div>
             </div>
-        </div><br><br><br>
+        </div>
+      </div><br><br><br>
 
     </main>
 <!--FORM SECTION-->
-    <div align="center" class="bg-info">
+    <div align="center" class="bg-light">
         <form class="formback charcoal center" action="" method="post" id="contact">
             <fieldset align="center">
                 <legend align="center" style="color:white;font-weight:bold;">
