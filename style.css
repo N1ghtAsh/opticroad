@@ -4,7 +4,7 @@
 html{scroll-behavior: smooth;}
 body{text-align:;padding-top:30px; padding-left:; padding-right:;}
 main{padding-left:;padding-right:;}
-form{display:inline-block; border-radius:10% 8% 0 0;}
+form{display:inline-block; border-radius:6% 6% 0 0;}
 
 a{text-decoration:none;} a:hover{color:hotpink;}
 
@@ -34,7 +34,7 @@ nav{display:block;}
 .prowid{align-content:center;width:70%;height:10px;}
 .sealeft{text-align:left;}
 .contentpadd{padding-left:5%;padding-left:5%;}
-h2{color:white;}
+h2{color:crimson;}
 hr{font-weight:bold;width:80%; text-align:center;color:red;}
 .inline{display:inline-block;}
 #usedit{color:blue;}
