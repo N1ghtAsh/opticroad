@@ -46,7 +46,7 @@ form {
   float: right;
   position: relative;
   border: solid 5px black;
-  widht: 200px;
+  width: 200px;
   height: 200px;
   margin: 0 25% 0 25%;
   border-radius: 200px;
@@ -58,7 +58,6 @@ form {
 }
 
 .formback {
-  background-color: ;
   width: 100%;
   padding-bottom: 5px;
 }
@@ -75,7 +74,7 @@ form {
 }
 
 .center {
-  text-alignment: center;
+  text-align: center;
 }
 
 .gradient {
